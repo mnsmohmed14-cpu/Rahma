@@ -1,0 +1,31 @@
+void main(){
+  // نص String
+  print('rahma');
+
+  // رقم صحيح int
+  print(5);
+
+  // رقم عشري double
+  print(5.0);
+
+  // bool القيمة المنطقية
+  print(true);
+
+  // list قائمة
+  print([
+    'rahma', 'mostafa'
+  ]);
+
+  print([
+    'rahma', 'mostafa'
+  ][0]);
+
+  // map القاموس
+  print({
+    'username': 'rahma', 'age': 19
+  });
+
+  print({
+    'username': 'rahma', 'age': 19
+  }['age']);
+}
